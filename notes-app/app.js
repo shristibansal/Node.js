@@ -14,3 +14,11 @@
 const getNotes = require('./notes.js')
 const notes = getNotes()
 console.log(notes);
+
+const validator = require('validator')
+// email validator
+console.log(validator.isEmail('abc@xyz.com'))
+console.log(validator.isEmail('abcxyz.com'))
+// url validator
+console.log(validator.isURL('https://www.google.com'))
+console.log(validator.isURL('https//www.google.com'))
