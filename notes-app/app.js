@@ -11,20 +11,23 @@
 // const sum = add(4,-2)
 // console.log(sum);
 
-const getNotes = require('./notes.js')
-const notes = getNotes()
-console.log(notes);
+//challenge
+// const getNotes = require('./notes.js')
+// const notes = getNotes()
+// console.log(notes);
 
-const validator = require('validator')
+//const validator = require('validator')
 // email validator
-console.log(validator.isEmail('abc@xyz.com'))
-console.log(validator.isEmail('abcxyz.com'))
+// console.log(validator.isEmail('abc@xyz.com'))
+// console.log(validator.isEmail('abcxyz.com'))
 // url validator
-console.log(validator.isURL('https://www.google.com'))
-console.log(validator.isURL('https//www.google.com'))
+// console.log(validator.isURL('https://www.google.com'))
+// console.log(validator.isURL('https//www.google.com'))
 
 //challenge
 const chalk = require('chalk')
-console.log(chalk.green('Success!'))
+// console.log(chalk.green('Success!'))
 console.log(chalk.green.bold('Success!'))
-console.log(chalk.bold.inverse.green('Success!'))
+// console.log(chalk.bold.inverse.green('Success!'))
+console.log(chalk.bold.red('Error!'))
+console.log(chalk.bold.blue('Go Ahead!'))
