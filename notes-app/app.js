@@ -22,3 +22,9 @@ console.log(validator.isEmail('abcxyz.com'))
 // url validator
 console.log(validator.isURL('https://www.google.com'))
 console.log(validator.isURL('https//www.google.com'))
+
+//challenge
+const chalk = require('chalk')
+console.log(chalk.green('Success!'))
+console.log(chalk.green.bold('Success!'))
+console.log(chalk.bold.inverse.green('Success!'))
